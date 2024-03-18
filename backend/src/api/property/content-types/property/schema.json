@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "address": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
